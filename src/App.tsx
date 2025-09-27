@@ -9,6 +9,8 @@ import { BookShelf } from './components/BookShelf';
 import { AppleSection } from './components/AppleSection';
 import { DealsOfTheDay } from './components/DealsOfTheDay';
 import { CustomerFavorites } from './components/CustomerFavorites';
+import { Analytics } from '@vercel/analytics/react';
+
 
 
 interface User {
@@ -27,7 +29,7 @@ function App() {
   useEffect(() => {
     const checkAuthStatus = async () => {
       const token = localStorage.getItem('token');
-      
+
       if (token) {
         try {
           const response = await fetch('http://localhost:5000/api/auth/verify', {
@@ -53,7 +55,7 @@ function App() {
           localStorage.removeItem('userEmail');
         }
       }
-      
+
       setIsLoading(false);
     };
 
@@ -95,10 +97,10 @@ function App() {
       />
       <HeroBanner />
       <ProductCategories />
-      <AppleSection/>
+      <AppleSection />
       <PromoSection />
-      <DealsOfTheDay/>
-      <CustomerFavorites/>
+      <DealsOfTheDay />
+      <CustomerFavorites />
       <BookShelf></BookShelf>
       <Footer />
       <AuthModal
@@ -106,6 +108,7 @@ function App() {
         onClose={() => setShowAuthModal(false)}
         onLoginSuccess={handleLoginSuccess}
       />
+      <Analytics /> {/* 👈 Add this before closing the main wrapper */}
     </div>
   );
 }
