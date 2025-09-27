@@ -10,7 +10,7 @@ export function PromoSection() {
     },
     {
       title: "Fashion",
-      subtitle: "Under $50",
+      subtitle: "Under ₹5000",
       image: "https://images.pexels.com/photos/1884581/pexels-photo-1884581.jpeg?auto=compress&cs=tinysrgb&w=400",
       bgColor: "bg-pink-50"
     },
@@ -33,8 +33,8 @@ export function PromoSection() {
       <h2 className="text-2xl font-bold text-gray-800 mb-6">Shop by Category</h2>
       <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
         {promoItems.map((item, index) => (
-          <div 
-            key={index} 
+          <div
+            key={index}
             className={`${item.bgColor} rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-all duration-300 cursor-pointer group`}
           >
             <div className="aspect-square overflow-hidden">

@@ -12,10 +12,10 @@ const categories: CategoryCard[] = [
   {
     title: "Shop Fashion for less",
     items: [
-      { name: "Jeans under $50", image: "https://images.pexels.com/photos/1082529/pexels-photo-1082529.jpeg?auto=compress&cs=tinysrgb&w=300" },
-      { name: "Tops under $25", image: "https://images.pexels.com/photos/996329/pexels-photo-996329.jpeg?auto=compress&cs=tinysrgb&w=300" },
-      { name: "Dresses under $30", image: "https://images.pexels.com/photos/1050244/pexels-photo-1050244.jpeg?auto=compress&cs=tinysrgb&w=300" },
-      { name: "Shoes under $50", image: "https://images.pexels.com/photos/2529148/pexels-photo-2529148.jpeg?auto=compress&cs=tinysrgb&w=300" }
+      { name: "Jeans under ₹500", image: "https://images.pexels.com/photos/1082529/pexels-photo-1082529.jpeg?auto=compress&cs=tinysrgb&w=300" },
+      { name: "Tops under ₹250", image: "https://images.pexels.com/photos/996329/pexels-photo-996329.jpeg?auto=compress&cs=tinysrgb&w=300" },
+      { name: "Dresses under ₹300", image: "https://images.pexels.com/photos/1050244/pexels-photo-1050244.jpeg?auto=compress&cs=tinysrgb&w=300" },
+      { name: "Shoes under ₹500", image: "https://images.pexels.com/photos/2529148/pexels-photo-2529148.jpeg?auto=compress&cs=tinysrgb&w=300" }
     ]
   },
   {

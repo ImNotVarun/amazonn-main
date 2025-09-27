@@ -141,7 +141,7 @@ export function HeroBanner() {
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentBanner((prev) => (prev + 1) % banners.length);
-    }, 1000);
+    }, 1500);
 
     return () => clearInterval(interval);
   }, [banners.length]);

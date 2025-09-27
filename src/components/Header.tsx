@@ -72,7 +72,7 @@ export function Header({ onLoginClick, cartCount, user, onLogout }: HeaderProps)
         <div className="hidden md:flex items-center space-x-4 order-2 md:order-3">
           {/* Language */}
           <div className="hidden md:flex items-center mr-4 text-sm hover:border border-white p-2 rounded cursor-pointer">
-            <img src="https://flagcdn.com/w20/us.png" alt="US" className="w-6 h-4 mr-1" />
+            <img src="https://flagcdn.com/w20/in.png" alt="US" className="w-6 h-4 mr-1" />
             <span>EN</span>
             <ChevronDown className="w-3 h-3 ml-1" />
           </div>

@@ -59,17 +59,17 @@ export function Footer() {
                 🌐 English
               </button>
               <button className="border border-gray-600 px-3 py-1 rounded hover:border-white transition-colors">
-                Rupees
+                ₹ Rupees
               </button>
               <button className="border border-gray-600 px-3 py-1 rounded hover:border-white transition-colors">
-                 India (In)
-               </button>
+                India 🇮🇳
+              </button>
             </div>
           </div>
         </div>
-        
+
         <div className="text-center pb-6 text-xs text-gray-400">
-          <p>© 1996-2025, Amazon.com, Inc. or its affiliates</p>
+          <p>© 1996-2025, Amazon.com, Vishal Team</p>
         </div>
       </div>
     </footer>
